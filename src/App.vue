@@ -9,5 +9,5 @@
 
   <router-view />
 
-  <p>// Copyleft (ɔ) 2021-2021 The Senpy Club</p>
+  <p>// copyleft (ɔ) 2021-2021 the senpy club</p>
 </template>
