@@ -13,7 +13,7 @@ export default class APIExtendableLanguage extends Vue {
   random: any;
 
   async fetchImages(): Promise<void> {
-    fetch(`http://localhost/api/v1/language?lang=${this.language}`, {
+    fetch(`http://api.senpy.club/api/v1/language?lang=${this.language}`, {
       method: 'GET',
     })
       .then((response) => response.json())
@@ -24,7 +24,7 @@ export default class APIExtendableLanguage extends Vue {
   }
 
   async fetchLanguages(): Promise<void> {
-    fetch('http://localhost/api/v1/languages', {
+    fetch('http://api.senpy.club/api/v1/languages', {
       method: 'GET',
     })
       .then((response) => response.json())
