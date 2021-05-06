@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+body {
+  max-width: 58em;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#random-image {
+  img {
+    height: 20em;
+  }
+  a:hover {
+    border-bottom: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.image-rack {
+  text-align: center;
+  list-style-type: none;
+}
+
+#image-rack-item {
+  display: inline;
+  padding: 10px;
+
+  a:hover {
+    border-bottom: none;
+  }
+
+  img {
+    width: 20%;
+    transition: 0.25s;;
+  }
+  img:hover {
+    opacity: 0.75;
+    width: 25%;
+  }
+}
