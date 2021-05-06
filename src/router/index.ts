@@ -4,12 +4,12 @@ import Home from '../views/Home.vue';
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home,
   },
   {
     path: '/language/:lang',
-    name: 'Language',
+    name: 'language',
     component: () => import('../views/Language.vue'),
   },
   {
