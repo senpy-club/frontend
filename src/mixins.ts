@@ -35,7 +35,7 @@ export default class APIExtendableLanguage extends Vue {
   }
 
   async fetchRandom(): Promise<void> {
-    fetch('http://localhost/api/v1/random', {
+    fetch('http://api.senpy.club/api/v1/random', {
       method: 'GET',
     })
       .then((response) => response.json())
