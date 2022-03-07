@@ -42,7 +42,7 @@
     "commitizen": "4.2.4",
     "cz-conventional-commit": "1.0.6",
     "eslint": "7.26.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-vue": "7.9.0",
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
