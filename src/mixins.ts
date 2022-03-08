@@ -17,6 +17,7 @@ export default class APIExtendableLanguage extends Vue {
   async fetchImages(): Promise<void> {
     fetch(`${this.baseUrl}/language/${this.language}`, {
       method: 'GET',
+      mode: 'no-cors',
     })
       .then((response) => response.json())
       .then((response) => {
@@ -28,6 +29,7 @@ export default class APIExtendableLanguage extends Vue {
   async fetchLanguages(): Promise<void> {
     fetch(`${this.baseUrl}/languages`, {
       method: 'GET',
+      mode: 'no-cors',
     })
       .then((response) => response.json())
       .then((response) => {
@@ -39,6 +41,7 @@ export default class APIExtendableLanguage extends Vue {
   async fetchRandom(): Promise<void> {
     fetch(`${this.baseUrl}/random`, {
       method: 'GET',
+      mode: 'no-cors',
     })
       .then((response) => response.json())
       .then((response) => {
