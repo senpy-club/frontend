@@ -894,35 +894,34 @@
     "@babel/helper-validator-identifier" "^7.12.11"
     to-fast-properties "^2.0.0"
 
-"@commitlint/cli@12.1.1":
-  version "12.1.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-12.1.1.tgz#740370e557a8a17f415052821cdd5276ecb0ab98"
-  integrity sha512-SB67/s6VJ50seoPx/Sr2gj1fMzKrx+udgarecGdr8h43ah+M2e22gjQJ7xHv5KwyPQ+6ug1YOMCL34ubT4zupQ==
+"@commitlint/cli@12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-12.1.4.tgz#af4d9dd3c0122c7b39a61fa1cd2abbad0422dbe0"
+  integrity sha512-ZR1WjXLvqEffYyBPT0XdnSxtt3Ty1TMoujEtseW5o3vPnkA1UNashAMjQVg/oELqfaiAMnDw8SERPMN0e/0kLg==
   dependencies:
-    "@commitlint/format" "^12.1.1"
-    "@commitlint/lint" "^12.1.1"
-    "@commitlint/load" "^12.1.1"
-    "@commitlint/read" "^12.1.1"
-    "@commitlint/types" "^12.1.1"
-    get-stdin "8.0.0"
+    "@commitlint/format" "^12.1.4"
+    "@commitlint/lint" "^12.1.4"
+    "@commitlint/load" "^12.1.4"
+    "@commitlint/read" "^12.1.4"
+    "@commitlint/types" "^12.1.4"
     lodash "^4.17.19"
     resolve-from "5.0.0"
     resolve-global "1.0.0"
     yargs "^16.2.0"
 
-"@commitlint/config-conventional@12.1.1":
-  version "12.1.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-12.1.1.tgz#73dd3b1a7912138420d248f334f15c94c250bc9e"
-  integrity sha512-15CqbXMsQiEb0qbzjEHe2OkzaXPYSp7RxaS6KoSVk/4W0QiigquavQ+M0huBZze92h0lMS6Pxoq4AJ5CQ3D+iQ==
+"@commitlint/config-conventional@12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-12.1.4.tgz#95bbab622f117a8a3e49f95917b08655040c66a8"
+  integrity sha512-ZIdzmdy4o4WyqywMEpprRCrehjCSQrHkaRTVZV411GyLigFQHlEBSJITAihLAWe88Qy/8SyoIe5uKvAsV5vRqQ==
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
-"@commitlint/ensure@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/ensure/-/ensure-12.1.1.tgz"
-  integrity sha512-XEUQvUjzBVQM7Uv8vYz+c7PDukFvx0AvQEyX/V+PaTkCK/xPvexu7FLbFwvypjSt9BPMf+T/rhB1hVmldkd6lw==
+"@commitlint/ensure@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-12.1.4.tgz#287ae2dcc5ccb086e749705b1bd9bdb99773056f"
+  integrity sha512-MxHIBuAG9M4xl33qUfIeMSasbv3ktK0W+iygldBxZOL4QSYC2Gn66pZAQMnV9o3V+sVFHoAK2XUKqBAYrgbEqw==
   dependencies:
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/types" "^12.1.4"
     lodash "^4.17.19"
 
 "@commitlint/execute-rule@^12.1.1":
@@ -930,33 +929,38 @@
   resolved "https://registry.npmjs.org/@commitlint/execute-rule/-/execute-rule-12.1.1.tgz"
   integrity sha512-6mplMGvLCKF5LieL7BRhydpg32tm6LICnWQADrWU4S5g9PKi2utNvhiaiuNPoHUXr29RdbNaGNcyyPv8DSjJsQ==
 
-"@commitlint/format@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/format/-/format-12.1.1.tgz"
-  integrity sha512-bTAoOryTFLqls17JTaRwk2WDVOP0NwuG4F/JPK8RaF6DMZNVQTfajkgTxFENNZRnESfau1BvivvEXfUAW2ZsvA==
+"@commitlint/execute-rule@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-12.1.4.tgz#9973b02e9779adbf1522ae9ac207a4815ec73de1"
+  integrity sha512-h2S1j8SXyNeABb27q2Ok2vD1WfxJiXvOttKuRA9Or7LN6OQoC/KtT3844CIhhWNteNMu/wE0gkTqGxDVAnJiHg==
+
+"@commitlint/format@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-12.1.4.tgz#db2d46418a6ae57c90e5f7f65dff46f0265d9f24"
+  integrity sha512-h28ucMaoRjVvvgS6Bdf85fa/+ZZ/iu1aeWGCpURnQV7/rrVjkhNSjZwGlCOUd5kDV1EnZ5XdI7L18SUpRjs26g==
   dependencies:
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/types" "^12.1.4"
     chalk "^4.0.0"
 
-"@commitlint/is-ignored@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/is-ignored/-/is-ignored-12.1.1.tgz"
-  integrity sha512-Sn4fsnWX+wLAJOD/UZeoVruB98te1TyPYRiDEq0MhRJAQIrP+7jE/O3/ass68AAMq00HvH3OK9kt4UBXggcGjA==
+"@commitlint/is-ignored@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-12.1.4.tgz#4c430bc3b361aa9be5cd4ddb252c1559870ea7bc"
+  integrity sha512-uTu2jQU2SKvtIRVLOzMQo3KxDtO+iJ1p0olmncwrqy4AfPLgwoyCP2CiULq5M7xpR3+dE3hBlZXbZTQbD7ycIw==
   dependencies:
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/types" "^12.1.4"
     semver "7.3.5"
 
-"@commitlint/lint@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/lint/-/lint-12.1.1.tgz"
-  integrity sha512-FFFPpku/E0svL1jaUVqosuZJDDWiNWYBlUw5ZEljh3MwWRcoaWtMIX5bseX+IvHpFZsCTAiBs1kCgNulCi0UvA==
+"@commitlint/lint@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-12.1.4.tgz#856b7fd2b2e6367b836cb84a12f1c1b3c0e40d22"
+  integrity sha512-1kZ8YDp4to47oIPFELUFGLiLumtPNKJigPFDuHt2+f3Q3IKdQ0uk53n3CPl4uoyso/Og/EZvb1mXjFR/Yce4cA==
   dependencies:
-    "@commitlint/is-ignored" "^12.1.1"
-    "@commitlint/parse" "^12.1.1"
-    "@commitlint/rules" "^12.1.1"
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/is-ignored" "^12.1.4"
+    "@commitlint/parse" "^12.1.4"
+    "@commitlint/rules" "^12.1.4"
+    "@commitlint/types" "^12.1.4"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^12.1.1":
+"@commitlint/load@>6.1.1":
   version "12.1.1"
   resolved "https://registry.npmjs.org/@commitlint/load/-/load-12.1.1.tgz"
   integrity sha512-qOQtgNdJRULUQWP9jkpTwhj7aEtnqUtqeUpbQ9rjS+GIUST65HZbteNUX4S0mAEGPWqy2aK5xGd73cUfFSvuuw==
@@ -969,27 +973,40 @@
     lodash "^4.17.19"
     resolve-from "^5.0.0"
 
-"@commitlint/message@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/message/-/message-12.1.1.tgz"
-  integrity sha512-RakDSLAiOligXjhbLahV8HowF4K75pZIcs0+Ii9Q8Gz5H3DWf1Ngit7alFTWfcbf/+DTjSzVPov5HiwQZPIBUg==
-
-"@commitlint/parse@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/parse/-/parse-12.1.1.tgz"
-  integrity sha512-nuljIvAbBDr93DgL0wCArftEIhjSghawAwhvrKNV9FFcqAJqfVqitwMxJrNDCQ5pgUMCSKULLOEv+dA0bLlTEQ==
+"@commitlint/load@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-12.1.4.tgz#e3c2dbc0e7d8d928f57a6878bd7219909fc0acab"
+  integrity sha512-Keszi0IOjRzKfxT+qES/n+KZyLrxy79RQz8wWgssCboYjKEp+wC+fLCgbiMCYjI5k31CIzIOq/16J7Ycr0C0EA==
   dependencies:
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/execute-rule" "^12.1.4"
+    "@commitlint/resolve-extends" "^12.1.4"
+    "@commitlint/types" "^12.1.4"
+    chalk "^4.0.0"
+    cosmiconfig "^7.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+
+"@commitlint/message@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-12.1.4.tgz#3895edcc0709deca5945f3d55f5ea95a9f1f446d"
+  integrity sha512-6QhalEKsKQ/Y16/cTk5NH4iByz26fqws2ub+AinHPtM7Io0jy4e3rym9iE+TkEqiqWZlUigZnTwbPvRJeSUBaA==
+
+"@commitlint/parse@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-12.1.4.tgz#ba03d54d24ef84f6fd2ff31c5e9998b22d7d0aa1"
+  integrity sha512-yqKSAsK2V4X/HaLb/yYdrzs6oD/G48Ilt0EJ2Mp6RJeWYxG14w/Out6JrneWnr/cpzemyN5hExOg6+TB19H/Lw==
+  dependencies:
+    "@commitlint/types" "^12.1.4"
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.0.0"
 
-"@commitlint/read@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/read/-/read-12.1.1.tgz"
-  integrity sha512-1k0CQEoZIdixvmqZRKEcWdj2XiKS7SlizEOJ1SE99Qui5d5FlBey8eaooTGgmpR6zObpIHJehtEPzM3VzUT3qA==
+"@commitlint/read@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-12.1.4.tgz#552fda42ef185d5b578beb6f626a5f8b282de3a6"
+  integrity sha512-TnPQSJgD8Aod5Xeo9W4SaYKRZmIahukjcCWJ2s5zb3ZYSmj6C85YD9cR5vlRyrZjj78ItLUV/X4FMWWVIS38Jg==
   dependencies:
-    "@commitlint/top-level" "^12.1.1"
-    "@commitlint/types" "^12.1.1"
+    "@commitlint/top-level" "^12.1.4"
+    "@commitlint/types" "^12.1.4"
     fs-extra "^9.0.0"
     git-raw-commits "^2.0.0"
 
@@ -1003,25 +1020,35 @@
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
 
-"@commitlint/rules@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/rules/-/rules-12.1.1.tgz"
-  integrity sha512-oCcLF/ykcJfhM2DeeaDyrgdaiuKsqIPNocugdPj2WEyhSYqmx1/u18CV96LAtW+WyyiOLCCeiZwiQutx3T5nXg==
+"@commitlint/resolve-extends@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-12.1.4.tgz#e758ed7dcdf942618b9f603a7c28a640f6a0802a"
+  integrity sha512-R9CoUtsXLd6KSCfsZly04grsH6JVnWFmVtWgWs1KdDpdV+G3TSs37tColMFqglpkx3dsWu8dsPD56+D9YnJfqg==
   dependencies:
-    "@commitlint/ensure" "^12.1.1"
-    "@commitlint/message" "^12.1.1"
-    "@commitlint/to-lines" "^12.1.1"
-    "@commitlint/types" "^12.1.1"
+    import-fresh "^3.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+    resolve-global "^1.0.0"
 
-"@commitlint/to-lines@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/to-lines/-/to-lines-12.1.1.tgz"
-  integrity sha512-W23AH2XF5rI27MOAPSSr0TUDoRe7ZbFoRtYhFnPu2MBmcuDA9Tmfd9N5sM2tBXtdE26uq3SazwKqGt1OoGAilQ==
+"@commitlint/rules@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-12.1.4.tgz#0e141b08caa3d7bdc48aa784baa8baff3efd64db"
+  integrity sha512-W8m6ZSjg7RuIsIfzQiFHa48X5mcPXeKT9yjBxVmjHvYfS2FDBf1VxCQ7vO0JTVIdV4ohjZ0eKg/wxxUuZHJAZg==
+  dependencies:
+    "@commitlint/ensure" "^12.1.4"
+    "@commitlint/message" "^12.1.4"
+    "@commitlint/to-lines" "^12.1.4"
+    "@commitlint/types" "^12.1.4"
 
-"@commitlint/top-level@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.npmjs.org/@commitlint/top-level/-/top-level-12.1.1.tgz"
-  integrity sha512-g7uRbr81QEIg+pbii0OkE17Zh/2C/f6dSmiMDVRn1S0+hNHR1bENCh18hVUKcV/qKTUsKkFlhhWXM9mQBfxQJw==
+"@commitlint/to-lines@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/to-lines/-/to-lines-12.1.4.tgz#caa582dbf121f377a0588bb64e25c4854843cd25"
+  integrity sha512-TParumvbi8bdx3EdLXz2MaX+e15ZgoCqNUgqHsRLwyqLUTRbqCVkzrfadG1UcMQk8/d5aMbb327ZKG3Q4BRorw==
+
+"@commitlint/top-level@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/top-level/-/top-level-12.1.4.tgz#96d5c715bfc1bdf86dfcf11b67fc2cf7658c7a6e"
+  integrity sha512-d4lTJrOT/dXlpY+NIt4CUl77ciEzYeNVc0VFgUQ6VA+b1rqYD2/VWFjBlWVOrklxtSDeKyuEhs36RGrppEFAvg==
   dependencies:
     find-up "^5.0.0"
 
@@ -1029,6 +1056,13 @@
   version "12.1.1"
   resolved "https://registry.npmjs.org/@commitlint/types/-/types-12.1.1.tgz"
   integrity sha512-+qGH+s2Lo6qwacV2X3/ZypZwaAI84ift+1HBjXdXtI/q0F5NtmXucV3lcQOTviMTNiJhq4qWON2fjci2NItASw==
+  dependencies:
+    chalk "^4.0.0"
+
+"@commitlint/types@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-12.1.4.tgz#9618a5dc8991fb58e6de6ed89d7bf712fa74ba7e"
+  integrity sha512-KRIjdnWNUx6ywz+SJvjmNCbQKcKP6KArhjZhY2l+CWKxak0d77SOjggkMwFTiSgLODOwmuLTbarR2ZfWPiPMlw==
   dependencies:
     chalk "^4.0.0"
 
@@ -3100,15 +3134,6 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-clone-deep@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz"
-  integrity sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==
-  dependencies:
-    is-plain-object "^2.0.4"
-    kind-of "^6.0.2"
-    shallow-clone "^3.0.0"
-
 clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
@@ -3203,7 +3228,27 @@ commander@~2.19.0:
   resolved "https://registry.npmjs.org/commander/-/commander-2.19.0.tgz"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
 
-commitizen@4.2.3, commitizen@^4.0.3:
+commitizen@4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.4.tgz#a3e5b36bd7575f6bf6e7aa19dbbf06b0d8f37165"
+  integrity sha512-LlZChbDzg3Ir3O2S7jSo/cgWp5/QwylQVr59K4xayVq8S4/RdKzSyJkghAiZZHfhh5t4pxunUoyeg0ml1q/7aw==
+  dependencies:
+    cachedir "2.2.0"
+    cz-conventional-changelog "3.2.0"
+    dedent "0.7.0"
+    detect-indent "6.0.0"
+    find-node-modules "^2.1.2"
+    find-root "1.1.0"
+    fs-extra "8.1.0"
+    glob "7.1.4"
+    inquirer "6.5.2"
+    is-utf8 "^0.2.1"
+    lodash "^4.17.20"
+    minimist "1.2.5"
+    strip-bom "4.0.0"
+    strip-json-comments "3.0.1"
+
+commitizen@^4.0.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.3.tgz#088d0ef72500240d331b11e02e288223667c1475"
   integrity sha512-pYlYEng7XMV2TW4xtjDKBGqeJ0Teq2zyRSx2S3Ml1XAplHSlJZK8vm1KdGclpMEZuGafbS5TeHXIVnHk8RWIzQ==
@@ -4937,6 +4982,14 @@ find-node-modules@2.0.0:
     findup-sync "^3.0.0"
     merge "^1.2.1"
 
+find-node-modules@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/find-node-modules/-/find-node-modules-2.1.2.tgz#57565a3455baf671b835bc6b2134a9b938b9c53c"
+  integrity sha512-x+3P4mbtRPlSiVE1Qco0Z4YLU8WFiFcuWTf3m75OV9Uzcfs2Bg+O9N+r/K0AnmINBW06KpfqKwYJbFlFq4qNug==
+  dependencies:
+    findup-sync "^4.0.0"
+    merge "^2.1.0"
+
 find-root@1.1.0, find-root@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/find-root/-/find-root-1.1.0.tgz"
@@ -4988,6 +5041,16 @@ findup-sync@^3.0.0:
     detect-file "^1.0.0"
     is-glob "^4.0.0"
     micromatch "^3.0.4"
+    resolve-dir "^1.0.1"
+
+findup-sync@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/findup-sync/-/findup-sync-4.0.0.tgz#956c9cdde804052b881b428512905c4a5f2cdef0"
+  integrity sha512-6jvvn/12IC4quLBL1KNokxC7wWTvYncaVUYSoxWw7YykPLuRrnv4qdHcSOywOI5RpkOVGeQRtWM8/q+G6W6qfQ==
+  dependencies:
+    detect-file "^1.0.0"
+    is-glob "^4.0.0"
+    micromatch "^4.0.2"
     resolve-dir "^1.0.1"
 
 flat-cache@^3.0.4:
@@ -5211,11 +5274,6 @@ get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
   resolved "https://registry.npmjs.org/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz"
   integrity sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==
-
-get-stdin@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-8.0.0.tgz"
-  integrity sha512-sY22aA6xchAzprjyqmSEQv4UbAAzRN0L2dQB0NlN5acTTK9Don6nhoc3eAbUnpZiCANAMfd/+40kVdKfFygohg==
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -5458,7 +5516,7 @@ globby@^9.2.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2:
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.6"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
@@ -6651,6 +6709,11 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+klona@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
+  integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
+
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/launch-editor-middleware/-/launch-editor-middleware-2.2.1.tgz"
@@ -7076,6 +7139,11 @@ merge@^1.2.1:
   resolved "https://registry.npmjs.org/merge/-/merge-1.2.1.tgz"
   integrity sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==
 
+merge@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/merge/-/merge-2.1.1.tgz#59ef4bf7e0b3e879186436e8481c06a6c162ca98"
+  integrity sha512-jz+Cfrg9GWOZbQAnDQ4hlVnQky+341Yk5ru8bZSe6sIDTCIg8n9i/u7hSQGSVOF3C7lH6mGtqjkiT9G4wFLL0w==
+
 methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
@@ -7416,7 +7484,7 @@ negotiator@0.6.2:
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
+neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
@@ -7873,13 +7941,6 @@ p-map@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz"
   integrity sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==
-
-p-map@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/p-map/-/p-map-3.0.0.tgz"
-  integrity sha512-d3qXVTF/s+W+CdJ5A29wywV2n8CQQYahlgz2bFiA+4eVNJbHJodPZ+/gXwPGh0bOqA+j8S+6+ckmvLGPk1QpxQ==
-  dependencies:
-    aggregate-error "^3.0.0"
 
 p-map@^4.0.0:
   version "4.0.0"
@@ -9232,16 +9293,13 @@ sakura.css@1.3.1:
   resolved "https://registry.yarnpkg.com/sakura.css/-/sakura.css-1.3.1.tgz#90f03dd20d6bd2500fc12a11e8105ce183c176e8"
   integrity sha512-J1Lj9yrAAs8OMseVDTIJPh5BxhZZEUz2VKkzj1u4HgjljVnIvVbCEfJKzjWolJTIs8SCxZ0murVJg0Ah7kK/yw==
 
-sass-loader@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-8.0.2.tgz#debecd8c3ce243c76454f2e8290482150380090d"
-  integrity sha512-7o4dbSK8/Ol2KflEmSco4jTjQoV988bM82P9CZdmo9hR3RLnvNc0ufMNdMrB0caq38JQ/FgF4/7RcbcfKzxoFQ==
+sass-loader@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-11.1.0.tgz#302a83e41834a7ac0cc9d7591e52688ef4ed92af"
+  integrity sha512-TS8KtLtMAqK68lBs0PRzoGf7ndz9m7pKo4BXvUzjGDDgWEY0qcoMMRVpaHfYM0i3/E6UsererqIpjs7dVA/p7A==
   dependencies:
-    clone-deep "^4.0.1"
-    loader-utils "^1.2.3"
-    neo-async "^2.6.1"
-    schema-utils "^2.6.1"
-    semver "^6.3.0"
+    klona "^2.0.4"
+    neo-async "^2.6.2"
 
 sass@1.32.12:
   version "1.32.12"
@@ -9280,7 +9338,7 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.1, schema-utils@^2.6.5, schema-utils@^2.7.0:
+schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.5, schema-utils@^2.7.0:
   version "2.7.1"
   resolved "https://registry.npmjs.org/schema-utils/-/schema-utils-2.7.1.tgz"
   integrity sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
@@ -9414,13 +9472,6 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-shallow-clone@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz"
-  integrity sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==
-  dependencies:
-    kind-of "^6.0.2"
 
 shebang-command@^1.2.0:
   version "1.2.0"
