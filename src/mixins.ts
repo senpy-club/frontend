@@ -12,10 +12,10 @@ export default class APIExtendableLanguage extends Vue {
 
   random: any;
 
-  private baseUrl = 'https://senpy-api.herokuapp.com/api/v1/';
+  private baseUrl = 'https://senpy-club-api-worker.fuwn.workers.dev/v1';
 
   async fetchImages(): Promise<void> {
-    fetch(`${this.baseUrl}language?lang=${this.language}`, {
+    fetch(`${this.baseUrl}/language/${this.language}`, {
       method: 'GET',
     })
       .then((response) => response.json())
@@ -26,7 +26,7 @@ export default class APIExtendableLanguage extends Vue {
   }
 
   async fetchLanguages(): Promise<void> {
-    fetch(`${this.baseUrl}languages`, {
+    fetch(`${this.baseUrl}/languages`, {
       method: 'GET',
     })
       .then((response) => response.json())
@@ -37,7 +37,7 @@ export default class APIExtendableLanguage extends Vue {
   }
 
   async fetchRandom(): Promise<void> {
-    fetch(`${this.baseUrl}random`, {
+    fetch(`${this.baseUrl}/random`, {
       method: 'GET',
     })
       .then((response) => response.json())
