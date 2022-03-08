@@ -12,7 +12,7 @@ export default class APIExtendableLanguage extends Vue {
 
   random: any;
 
-  private baseUrl = 'https://senpy-club-api-worker.fuwn.workers.dev/v1';
+  private baseUrl = 'https://senpy-club-api-worker.fuwn.workers.dev/v2';
 
   async fetchImages(): Promise<void> {
     fetch(`${this.baseUrl}/language/${this.language}`, {
